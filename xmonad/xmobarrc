@@ -14,6 +14,6 @@ Config { font = "-*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*"
 	]
 	, sepChar = "%"
         , alignSep = "}{"
-        , template = "%cpu% | %memory% | %wlan0% | Batt: %battery% }{<fc=#ee9a00>%date%</fc> | %whoami%"
+        , template = "%cpu% | %memory% | %wlan0% | Batt: %battery% }{<fc=#ee9a00>%date%</fc> | <fc=#22dd77>%whoami%</fc>"
         , lowerOnStart = False
 	}
