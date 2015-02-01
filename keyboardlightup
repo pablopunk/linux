@@ -1,7 +1,0 @@
-#!/bin/bash
-
-actual=`cat /sys/devices/platform/applesmc.768/leds/smc::kbd_backlight/brightness`
-
-nuevo=$(($actual+50))
-
-sudo sh -c "echo $nuevo > /sys/devices/platform/applesmc.768/leds/smc::kbd_backlight/brightness"
