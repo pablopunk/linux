@@ -1,0 +1,7 @@
+#!/bin/bash
+
+actual=`cat /sys/class/backlight/nv_backlight/brightness`
+
+nuevo=$(($actual+10))
+
+sudo sh -c "echo $nuevo > /sys/class/backlight/nv_backlight/brightness"
