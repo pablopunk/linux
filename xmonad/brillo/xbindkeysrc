@@ -1,0 +1,13 @@
+
+# Brillo
+"/bin/brightnessup"
+ XF86MonBrightnessUp
+
+"/bin/brightnessdown"
+ XF86MonBrightnessDown
+
+"/bin/keyboardlightup"
+ XF86KbdBrightnessUp
+
+"/bin/keyboardlightdown"
+ XF86KbdBrightnessDown
