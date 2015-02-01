@@ -1,0 +1,7 @@
+#!/bin/bash
+
+actual=`amixer | head | grep % | cut -d"[" -f2 | cut -d"%" -f1 | uniq`
+
+nuevo=$(($actual-10))
+
+amixer set Master ${nuevo}%
