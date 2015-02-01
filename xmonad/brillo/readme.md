@@ -1,5 +1,5 @@
 ## Configuracion
-
+### Tambien puede lograrse con el daemon de gnome "gnome-settings-daemon" para la configuracion por defecto
 - Instalar xbindkeys
 - Crear un ~/.xbindkeysrc vacio
 - Comprobar los nombres de las teclas con "xbindkeys -k"
