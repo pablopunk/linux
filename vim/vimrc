@@ -1,0 +1,38 @@
+" Inicio de la configuracion de Bundle
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+"set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" Fin de la configuracion de Bundle
+
+" Colores y sintaxis
+syntax on
+
+" Numeros de linea
+set number
+
+" Indentado
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" Fuentes PowerLine
+set guifont=Inconsolata\ for\ Powerline:h15
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+
+" Gvim
+set background=dark
+colorscheme solarized
+
+" Bundles
+"Plugin 'fatih/vim-go'
+"Plugin 'vim-multiple-cursors'
+
