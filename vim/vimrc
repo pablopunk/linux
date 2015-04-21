@@ -19,6 +19,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Prevenir que la tecla Delete no funcione correctamente
+set backspace=indent,eol,start
+
 " Fuentes PowerLine
 set guifont=Inconsolata\ for\ Powerline:h15
 let g:Powerline_symbols = 'fancy'
