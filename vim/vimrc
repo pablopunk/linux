@@ -15,25 +15,25 @@ set number
 
 " Indentado
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Prevenir que la tecla Delete no funcione correctamente
 set backspace=indent,eol,start
 
 " Fuentes PowerLine
-set guifont=Inconsolata\ for\ Powerline:h15
-let g:Powerline_symbols = 'fancy'
-set encoding=utf-8
-set t_Co=256
-set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
-set termencoding=utf-8
+"set guifont=Inconsolata\ for\ Powerline:h15
+"let g:Powerline_symbols = 'fancy'
+"set encoding=utf-8
+"set t_Co=256
+"set fillchars+=stl:\ ,stlnc:\
+"set term=xterm-256color
+"set termencoding=utf-8
 
 " Gvim
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 " Bundles
 "Plugin 'fatih/vim-go'
