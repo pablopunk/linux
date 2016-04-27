@@ -22,6 +22,9 @@ set expandtab
 " Prevenir que la tecla Delete no funcione correctamente
 set backspace=indent,eol,start
 
+" Corregir el autoindent al pegar
+set paste
+
 " Fuentes PowerLine
 "set guifont=Inconsolata\ for\ Powerline:h15
 "let g:Powerline_symbols = 'fancy'
